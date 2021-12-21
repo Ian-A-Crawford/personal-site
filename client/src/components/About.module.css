@@ -1,0 +1,67 @@
+.aboutMe {
+   font-family: 'Courier Prime', monospace;
+   text-align: center;
+   background-color: #CDD3CE;
+   color: #434343;
+   min-height: calc(100vh - 170px);
+}
+
+.row{
+   padding: 0 5% 6px 5%;
+   height: 150px;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+}
+
+.rowAfter {
+   width: 20%;
+   height: 5px;
+   border-radius: 10px;
+   background-color: #d45113;
+   margin: 15px auto 15px auto;
+
+}
+
+.firstRow {
+   padding-top: 30px;
+}
+
+.rowParagraph {
+   flex: 4;
+   line-height: 1.15;
+   text-align: left;
+   padding-left: 15px;
+}
+
+.computerImg { 
+   height: 100%;
+   filter: invert(32%) sepia(0%) saturate(2025%) hue-rotate(149deg) brightness(95%) contrast(89%);
+}
+
+.computerSpan {
+   flex: 1; 
+   height: 100%;
+}
+
+@media only screen and (max-width: 700px) {
+
+   .row {
+      flex-direction: column;
+      height: 275px;
+      font-size: 1.5em;
+      height: auto;
+   }
+   .computerSpan {
+      order: 1;
+      width: 125px;
+      flex: 1;
+      padding-top: 30px;
+   }
+
+   .rowParagraph {
+      order: 2;
+   }
+
+
+}

@@ -1,0 +1,25 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.routes {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+ body {
+  height: 100%
+}
+
+html,#app, #app>div, #root, .route {
+  height: auto;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
+

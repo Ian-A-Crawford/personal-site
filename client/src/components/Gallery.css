@@ -1,0 +1,5 @@
+
+.galleryDiv {
+   height: calc(100vh - 170px);
+   background-color: #CDD3CE;
+}

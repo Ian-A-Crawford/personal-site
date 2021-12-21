@@ -1,0 +1,22 @@
+.footer {
+   background-color: #545454;
+   height: 60px;
+   display: flex;
+   flex-direction: column;
+   height: 100%;
+   justify-content: center;
+   font-family: 'Courier Prime', monospace;
+   font-size: .9rem;
+   height: 85px;
+}
+
+.footerText {
+   text-align: center;
+
+}
+
+.links {
+   display: flex;
+   width: 63%;
+   justify-content: space-between;
+}
