@@ -1,7 +1,6 @@
 import React from 'react';
 import './Introduction.css';
 import portrait from '../img/portrait.jpg';
-import sleeb from '../img/sleeby.png'
 
 const Introduction = () => {
 
