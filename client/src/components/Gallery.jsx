@@ -51,16 +51,14 @@ const Gallery = () => {
    React.useEffect(() => {
       fetch("/api")
          .then((res) => res.json())
-         .then((data) => setData(data.message));
+         .then(data => setData(data.photo.map(image => (<img src={`https://live.staticflickr.com/${image.server}/${image.id}_${image.secret}.jpg`} alt='photograph' key={image.title}></img>))));
    }, []);
 
    return (
       <div className='galleryDiv'>
-         <p>{!data ? "Loading..." : data}</p>
+         
          <Masonry>
-            {images.map(image => (
-               <img src={image.original}></img>
-            ))}
+            {data}
          </Masonry>
       </div>
 
@@ -68,3 +66,6 @@ const Gallery = () => {
 }
 
 export default Gallery;
+
+
+
