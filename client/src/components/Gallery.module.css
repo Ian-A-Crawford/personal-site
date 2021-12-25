@@ -1,0 +1,20 @@
+
+.galleryDiv {
+   min-height: calc(100vh - 170px);
+   height: auto;
+   background-color: #CDD3CE;
+   font-family: 'Courier Prime', monospace;
+}
+
+.hidden {
+   display: none;
+}
+
+.loading {
+   text-align: center;  
+   padding-top: 1.5rem;
+}
+
+.width {
+   margin: 0;
+}

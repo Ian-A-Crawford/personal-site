@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom';
 import './NavBar.css'
 //import { ReactComponent as con } from '../../img/final.svg'
 import Logo from '../img/mountain.svg';
+import { slide as Menu } from 'react-burger-menu'
+
 
 const NavBar = () => {
 

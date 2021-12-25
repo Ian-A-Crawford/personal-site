@@ -5,6 +5,12 @@
 
 }
 
+.menuLink {
+   padding: 5px;
+   font-size: 1.5rem;
+   color: grey;
+}
+
 .navbar {
    display: flex;
    justify-content: space-between;
