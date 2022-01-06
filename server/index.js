@@ -7,7 +7,6 @@ const axios = require('axios');
 
 
 
-
 // Have Node serve the files for our built React app
 app.use(express.static(path.resolve(__dirname, '../client/build')));
 
