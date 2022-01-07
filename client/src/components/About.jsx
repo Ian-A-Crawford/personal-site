@@ -9,7 +9,8 @@ const About = () => {
       <div className={styles.aboutMe}>
          <div className={`${styles.row} ${styles.firstRow}`}>
             <div className={styles.computerSpan}><img src={computer} className={styles.computerImg} alt='computer'></img></div>
-            <p className={styles.rowParagraph}>Hey! I'm Ian Crawford and I'm a web developer and a bit of an adventurer. I became interested in web development because of the instant feedback you can receive from it, saved changes are immediately visible in the finished product, something I really appreciate.</p>
+            <p className={styles.rowParagraph}>Hey! I'm Ian Crawford and I'm a software engineering student and a bit of an adventurer. At the moment I tinker mostly with fullstack development both as a hobby and as part of my co-op.
+            I work in Angular and React, preferring React for my personal use, this site was actually made in React, with a Node backend.</p>
          </div>
          <div className={styles.rowAfter}></div>
          <div className={styles.row}>

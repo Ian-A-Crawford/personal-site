@@ -9,7 +9,7 @@ const Introduction = () => {
          <div className='about'>
             <div>
                <img src={portrait} alt='portrait' className='portrait'></img>
-               <p><b>Web Developer</b></p>
+               <p><b>Software Engineer</b></p>
                <p><b>he/him</b></p>
             </div>
          </div>

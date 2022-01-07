@@ -1,9 +1,11 @@
 
 .galleryDiv {
-   min-height: calc(100vh - 170px);
+   min-height: calc(100vh - 160px);
    height: auto;
    background-color: #CDD3CE;
    font-family: 'Courier Prime', monospace;
+   padding: 10px;
+   padding-bottom: 0px;
 }
 
 .hidden {
@@ -17,4 +19,14 @@
 
 .width {
    margin: 0;
+}
+
+@media only screen and (max-width: 700px) {
+
+  .galleryDiv {
+     padding: 5px;
+     padding-bottom: 0px;
+  }
+
+
 }

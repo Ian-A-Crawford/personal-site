@@ -60,9 +60,43 @@
    font-size: 1rem;
 }
 
+.menu {
+   display: none;
+}
+.sideBar {
+   display: fixed;
+   height: 5rem;
+   padding: 1.5rem 2rem 0 2rem;
+   font-family: 'Courier Prime', monospace;
+   font-size: 1.2rem;
+}
+.sideBar li {
+   list-style: none;
+   margin: 0 auto 0 auto;
+   height: 33%;
+   padding: 1rem;
+   padding-bottom: 1.5rem;
+   text-align: center;
+}
+
+.sideBar li a {
+   text-decoration: none;
+   color: #bbbbbb;
+}
+
 @media only screen and (max-width: 600px) {
    .navbar li {
       display: none;
+   }
+
+   .ian {
+      display: none;
+   }
+
+   .menu {
+      display: inherit;
+      padding-right: 0;
+      width: 18%;
    }
 
    .icon img{
