@@ -7,6 +7,7 @@ const Footer = () => {
    var date = new Date()
    const currentYear = date.getFullYear();
 
+   
    return (
    <div>
       <div className={styles.footer}>
