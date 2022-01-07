@@ -13,7 +13,7 @@ const About = () => {
             <p className={styles.rowParagraph}>Hey! I am Ian Crawford, a software engineering student and avid adventurer!
                I tinker with fullstack development as a hobby and through my co-op. I work with Angular and React, and I
                prefer React for my independent endeavors such as this one. This website was constructed using
-               React with a Node backend!</p>
+               React with a Node backend.</p>
          </div>
          <div className={styles.rowAfter}></div>
          <div className={styles.row}>
