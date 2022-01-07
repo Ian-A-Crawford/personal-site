@@ -17,7 +17,7 @@ const Gallery = () => {
          .then((res) => res.json())
          .then(data => setData(data.photo.map(image => (<img src={`https://live.staticflickr.com/${image.server}/${image.id}_${image.secret}.jpg`} alt='photograph' key={image.title}></img>))));
    }, []);
-   console.log(data);
+   
 
    return (
       <div className={`${styles.galleryDiv}`}>
