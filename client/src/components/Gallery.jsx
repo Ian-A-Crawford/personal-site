@@ -1,6 +1,6 @@
 import React from 'react';
 import Masonry from '@mui/lab/Masonry';
-import { Modal, Box, Typography } from '@mui/material';
+import { Modal } from '@mui/material';
 import styles from './Gallery.module.css';
 import { useMediaQuery } from 'react-responsive';
 

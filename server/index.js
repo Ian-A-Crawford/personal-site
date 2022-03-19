@@ -16,8 +16,6 @@ app.get("/api", (req, res) => {
 
   const images = axios.get(`https://www.flickr.com/services/rest/?method=flickr.photosets.getPhotos&api_key=${process.env.KEY}&photoset_id=72177720295490185&user_id=${process.env.USERID}&extras=original_format&format=json&nojsoncallback=1`)
   .then(response => {
-    console.log(response.data.photoset.photo);
-    
     res.send(response.data.photoset);
   })
   .catch(error => {
