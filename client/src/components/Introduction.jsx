@@ -15,14 +15,14 @@ const Introduction = () => {
          </div>
          <div className='col__introduction'>
             <div className='column one'>
-               <p>SWEN @ Auburn</p>
-               <p>Co-Op @ ADTRAN</p>
+               <p>CS @ WWU</p>
+               <p>Worked At REI & ADTRAN</p>
                <p>Professional &lt;div&gt;-er</p>
             </div>
             <div className='column'>
-               <p>React.js</p>
-               <p>Angular</p>
-               <p>Python/Java</p>
+               <p>React.js/Angular/Vue.js</p>
+               <p>Git, Linux, Agile</p>
+               <p>Python/Java/JS/C++</p>
             </div>
          </div>
 

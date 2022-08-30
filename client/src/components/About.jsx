@@ -10,10 +10,11 @@ const About = () => {
       <div className={styles.aboutMe}>
          <div className={`${styles.row} ${styles.firstRow}`}>
             <div className={styles.computerSpan}><img src={computer} className={styles.computerImg} alt='computer'></img></div>
-            <p className={styles.rowParagraph}>Hey! I am Ian Crawford, a software engineering student and avid adventurer!
-               I tinker with fullstack development as a hobby and through my co-op. I work with Angular and React, and I
-               prefer React for my independent endeavors such as this one. This website was constructed using
-               React with a Node backend.</p>
+            <p className={styles.rowParagraph}>
+               Hey! I am Ian Crawford, a computer science student at Western Washington
+               University and an avid adventurer! I have work experience in both front end and back end development,
+               and I look forward to putting these skills to use in my future positions.
+            </p>
          </div>
          <div className={styles.rowAfter}></div>
          <div className={styles.row}>
@@ -30,10 +31,9 @@ const About = () => {
          <div className={styles.row}>
             <div className={styles.computerSpan}><img src={city} className={styles.computerImg} alt='city'></img></div>
             <p className={styles.rowParagraph}>
-               At the present, I'm looking toward the future. While what it holds might be uncertain,
-               I'm certain it will turn out well. I will be updating this particular section in the
-               future with some really exciting things that I have planned, but at the moment, they
-               aren't quite ready to be revealed.
+               Currently, I am settling down in my new home in the Pacific Northwest, having moved here in the summer of 2022. I really look
+               forward to the new opportunities this region holds for me, and I see it as an important turning point
+               in my career and life more broadly.
             </p>
 
          </div>
