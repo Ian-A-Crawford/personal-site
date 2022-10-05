@@ -20,9 +20,9 @@ const About = () => {
          <div className={styles.row}>
             <p className={styles.rowParagraph}>
                I am on a constant quest to obtain knowledge and improve myself through novel experiences and
-               quests. I explore my passion for photography and exploration while trekking through
-               mountains, ghost towns, and places time left behind. I love to hike with friends and go on adventures to
-               new locations.
+               quests. I engage in my passion for photography and exploration while trekking through
+               mountains, ghost towns, and other places of natural beauty, and I cycle long distances in order to experience the world
+               around me in a new way.
             </p>
             <div className={styles.computerSpan}><img src={mountain} className={styles.computerImg} alt='computer'></img></div>
 
@@ -31,7 +31,7 @@ const About = () => {
          <div className={styles.row}>
             <div className={styles.computerSpan}><img src={city} className={styles.computerImg} alt='city'></img></div>
             <p className={styles.rowParagraph}>
-               Currently, I am settling down in my new home in the Pacific Northwest, having moved here in the summer of 2022. I really look
+               Currently, I am settling down in my new home in the Pacific Northwest, having moved here in the summer of 2022. I greatly look
                forward to the new opportunities this region holds for me, and I see it as an important turning point
                in my career and life more broadly.
             </p>
