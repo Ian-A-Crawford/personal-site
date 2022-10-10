@@ -30,6 +30,9 @@ const NavBar = () => {
                <li>
                   <Link to='/gallery'>Gallery</Link>
                </li>
+               {/* <li>
+                  <Link to='/gallery'>Gallery</Link>
+               </li> */}
             </ul>
             <div className='name ian'>
                Ian Crawford

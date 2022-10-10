@@ -20,9 +20,9 @@ const Introduction = () => {
                <p>Professional &lt;div&gt;-er</p>
             </div>
             <div className='column'>
-               <p>React.js/Angular/Vue.js</p>
+               <p>React, Angular, Vue</p>
                <p>Git, Linux, Agile</p>
-               <p>Python/Java/JS/C++</p>
+               <p>Python, Java, JS</p>
             </div>
          </div>
 
