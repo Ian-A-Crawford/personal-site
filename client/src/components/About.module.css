@@ -6,6 +6,30 @@
    min-height: calc(100vh - 170px);
 }
 
+.blogRow {
+   text-align: left !important;
+   padding: 0 5%;
+   margin-top: 2em;
+   display: flex;
+   flex-direction: column;
+   align-items: left; 
+}
+
+.blogRow > p {
+   margin-top: 0.5em;
+   margin-bottom: 0;
+}
+
+.blogHeader {
+   display: flex;
+   flex-direction: column;
+}
+
+.blogHeader > * {
+   margin: 0;
+   padding: 0;
+}
+
 .row{
    padding: 0 5% 6px 5%;
    height: 150px;
