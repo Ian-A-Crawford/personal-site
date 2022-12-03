@@ -3,5 +3,4 @@ node_modules
 iancrawford.dev.key
 iancrawford.dev.csr
 package-lock.json
-package.json
 .vscode/settings.json
