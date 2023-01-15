@@ -12,6 +12,7 @@
    color: #434343;
    min-height: calc(100vh - 170px);
    padding-bottom: 25px;
+   line-height: 1.4em;
 }
 
 .blogRow {

@@ -19,6 +19,7 @@ const Footer = () => {
          <div className={styles.footerText}>
             <div className={styles.brands}>
                <a rel='noreferrer' target={"_blank"} href="https://www.linkedin.com/in/ian-crawford-447527210/"><FontAwesomeIcon icon={brands('linkedin')}/></a>
+               <a rel='noreferrer' target={"_blank"} href='https://github.com/Ian-A-Crawford'><FontAwesomeIcon icon={brands('github')}/></a>
                <a rel='noreferrer' target={"_blank"} href='https://www.instagram.com/ianalexiac/'><FontAwesomeIcon icon={brands('instagram')}/></a>
             </div>
             
